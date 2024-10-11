@@ -1,0 +1,1 @@
+No he entendido como se usa artillery para hacer un benchmark... pero pa' eso estoy aqui
