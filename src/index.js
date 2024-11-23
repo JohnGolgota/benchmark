@@ -1,10 +1,11 @@
 import axios from "axios";
-import dotenv from "dotenv";
+// import dotenv from "dotenv";
 
-dotenv.config();
+// dotenv.config();
 
 const TOKEN = process.env.API_TOKEN;
 const BASE_ENDPOINT = process.env.BASE_ENDPOINT;
+console.log({ TOKEN, BASE_ENDPOINT });
 
 async function mekeRequests(requestsAmount, url) {
 	const requests = [];
